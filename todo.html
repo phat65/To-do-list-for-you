@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>dotolist</title>
+    <meta charset="UTF-8">
+    <link href="todo.css" rel="stylesheet" type="text/css">
+    <script src="todo.js" defer></script>
+
+
+</head>
+<body>
+    
+<div id="date-box">
+    <div class="date-text"></div>
+        <span class="line" id="weekday"></span>
+        <span class="line" id="day"></span>
+        <span class="line" id="month"></span>
+    </div>
+    <div class="progress-wrapper">
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div> 
+        
+        <button id="button-increase" onclick="increaseProgress()">Increase</button>
+    
+    </div>
+
+</div>
+
+
+<h2 class="style-text">To-Do List</h2>
+
+<div class="task-input-wrapper">
+    <input type="text" id="new-task-input" placeholder="New task...">
+    <button id="add-task-button">Add Task</button>
+</div>
+
+
+
+
+
+
+</body>
+</html>
