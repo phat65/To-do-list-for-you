@@ -12,7 +12,10 @@ body{
 }
 
 
-
+@media (max-width: 768px) {
+        .task-input-wrapper {
+            flex-direction: column;}
+        }
 /* đây là phần cả ngày tháng và phần increase */
 #date-box{
     margin-top:10px;
